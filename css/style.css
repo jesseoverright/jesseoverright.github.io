@@ -1,7 +1,27 @@
+body {
+    background-color: #efefef;
+}
+
+a {
+    color: #753a8c;
+}
+
 .jumbotron {
     text-align: center;
-    background-color: #3c763d;
-    color: #fff;
+    color: #753a8c;
+    padding: 20px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 77px;
+}
+
+.row {
+    background-color: #fff;
+    box-shadow: 1px 1px #dedede;
+    padding: 0 20px 30px;
+    min-height: 380px;
 }
 
 .footer {
@@ -9,9 +29,4 @@
   margin-top: 30px;
   border-top: 1px solid #eee;
   background-color: #efefef;
-}
-
-.row {
-    padding: 0 20px;
-    min-height: 380px;
 }
